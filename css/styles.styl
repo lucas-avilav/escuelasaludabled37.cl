@@ -1,0 +1,280 @@
+@import "iconos.styl" 
+
+body
+	background url('../img/bg.jpg')
+	color #4C4C4C
+	font-family 'PT Sans' Arial
+	font-size 16px
+	margin 0 
+	padding 0
+
+footer
+	padding 1em 0
+	text-align left
+	width 100%
+
+
+	form 
+		width 100%
+
+		ul
+			list-style none
+
+			li 
+				margin 1em 0
+
+				button
+					background #fff
+					border-radius 0.5em
+					cursor pointer
+					padding 0.3em 1em
+
+				input
+					border-radius 0.5em
+					font-size 0.8em
+					padding 0.5em 0.5em
+					width 80%
+		
+				input:required:valid, textarea:required:valid
+					border-color #eaa075
+
+				input:required:invalid, textarea:required:invalid
+					border-color #ff6100
+
+				textarea
+					border-radius 0.5em
+					font-size 0.8em
+					padding 0.5em 0.5em
+					width 80%
+
+	#datos
+		margin 1em 0
+		padding 1em
+		width 90%
+
+		h4, strong
+			display inline-block
+			vertical-align top
+		p
+			font-size 1em
+			font-weight none
+			margin 0.5em 0
+			padding 0
+
+		strong 
+			color #ff6100
+			font-size 1.7em
+			margin 0 0 0 0.5em
+			padding 0
+			text-shadow rgba(0, 0, 0, .9) 1px 1px 2px
+h4
+	color #ff6100
+	font-family 'PT Sans Narrow', Arial
+	font-size 1.5em
+	margin 0
+	text-shadow rgba(0, 0, 0, .9) 1px 1px 2px
+
+header
+	background #FFAE15
+	margin 0
+	padding 1em 0
+	text-align center
+
+	h1
+		color #FF3F14
+		font-size 16px
+		margin 0 auto
+		padding 0
+		text-align center
+		text-shadow rgba(255, 255, 255, .9) 1px 1px 4px
+		width 40%
+
+	h1, #logo
+		display inline-block
+		vertical-align top
+	
+	
+	#logo
+		margin 0.5em 0 0 auto
+
+		img
+			width 150px
+
+nav 
+	background #ffcd51
+	font-size 0.9em
+	margin 0
+
+	ul 
+		list-style none
+		margin 0
+		padding 0
+		text-align center
+
+		li
+			display inline-block
+			vertical-align top
+			
+			a 
+				color #ad170f
+				display block
+				font-weight bold
+				padding 0.8em 0.5em
+				text-decoration none
+
+			a:hover
+				background #8e130c
+				color white
+
+#col_left
+	display none
+
+#info_home
+	padding 1em 0
+
+#media_home
+	display block
+	margin 1em auto
+	text-align center
+	width 100%
+
+	a
+		color #174422
+		text-decoration none
+
+	.media_pic, .media_video
+		display inline-block
+		margin 0
+		padding 0
+		vertical-align top
+
+	.media_pic
+		font-size 5.2em
+		height 88px
+		width 35%
+
+	.media_video
+		font-size 5.5em
+		width 35% 
+
+#slider
+	background #e3e7f2
+	margin 0 auto
+	padding 1em 0
+	width 100%
+
+	.caption 
+		background #000
+		background rgba(0,0,0, .8)
+		bottom -1em
+		color #fff
+		display block
+		left 0
+		padding 1em 0
+		position absolute
+		right 0
+		text-align center
+	
+
+.info_item
+	margin 0 auto
+	padding 0.5em
+	width 85%
+
+	a
+		color #545454
+		font-size 0.9em
+		margin 0 5em 0 0
+		text-decoration none
+
+	a:hover
+		text-decoration underline
+
+	h3
+		font-family 'PT Sans Narrow', Arial
+		font-size 1.3em
+		margin 0.6em 0
+		width 60%
+
+	h3, .info_icon
+		display inline-block
+		vertical-align top
+
+	p
+		margin 1em 0
+
+	.info_icon 
+		margin 0 1em 0 0
+
+.post
+	border-bottom 1px solid #add684
+	margin 0 auto
+	padding 0.7em 0.3em
+	text-align left
+	width 95%
+
+	h2
+		color #d34600
+		font-family 'PT Sans Narrow', Arial
+		font-size 1.5em
+		margin 0 0 0 0.7em
+		width 70%
+
+	h2, .post_type_icon
+		display inline-block
+		vertical-align top
+
+	.post_datos
+		text-align left
+
+		a
+			color #545454
+			font-size 0.9em
+			margin 0
+			text-decoration none
+
+		a:hover
+			text-decoration underline
+
+		span 
+			float right 
+			font-size 0.9em
+			margin 0 1em 0 0
+
+	.post_info
+		font-size 1em
+		margin 0
+		padding 0
+		text-align left
+
+.rslides 
+	font-size 1em
+	list-style none
+	margin 0
+	overflow hidden
+	padding 0
+	position relative
+	width 100%
+  
+.rslides li 
+	-webkit-backface-visibility hidden
+	display none
+	left 0
+	position absolute
+	top 0
+	width 100%
+  
+.rslides li:first-child 
+	display block
+	float left
+	position relative
+  
+
+.rslides img 
+	border 0
+	display block
+	float left
+	height auto
+	width 100%
+  
+
